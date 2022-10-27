@@ -8,10 +8,12 @@
 
 #### **Этап**
 * Доступен для редактирования:
+
 ![Задача (редактирование реквизита "Этап")](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/task-stage-edit.png?raw=true)
 
 #### **Статус**
 * Недоступен для редактирования и определяется автоматически из таблицы соответствия этапов и статусов:
+
 ![Процесс (соответствие этапов и статусов)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/process-task-stages-statuses.png?raw=true)
 
 
@@ -36,7 +38,7 @@
 #### Готово к тесту
 * Когда разработчик завершает работу по задаче, нужно перевести её в готовность к тесту и зафиксировать комментарий с номером версии по следующему шаблону
 >"Реализовано/исправлено в версии хранилища: **#НомерВерсии**":
->
+
 ![Этап процесса "Готово к тесту" (шаблон комментария с номером версии)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/task-ready-for-testing-version-comment.png?raw=true)
 
 
@@ -54,7 +56,7 @@
 >
 >**Наблюдаемый результат:**
 >*<описание наблюдаемого результата>*
->
+
 ![Этап процесса "Ошибка при тесте" (шаблон комментария с описанием ошибки)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/task-testing-failure-comment.png?raw=true)
 
 
@@ -68,6 +70,7 @@
 * Спринт - это короткий временной интервал, в течение которого команда выполняет заданный объем работы. 
 
 * Спринт имеет дату начала и дату завершения:
+
 ![Задача (спринт)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/task-sp-date-expired.png?raw=true)
 
 * При идеальном планировании (когда плановые затраты на работу по задачам совпадают с фактическими), все, запланированные на спринт, задачи, должны перейти в статус "Готово" (к моменту завершения спринта).
@@ -83,9 +86,11 @@
 ### Создание новых задач
 
 * Создание новых задач должно выполняться в беклоге (с незаполненным реквизитом "Спринт"):
+
 ![Задача (заполнение реквизита "Спринт")](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/task-create-sprint.png?raw=true)
 
 * Если задача разработки создается на основании проектной задачи, то в самом начале описания задачи нужно вставить гиперссылку на проектную задачу для соблюдения связности:
+
 ![Задача (гиперссылка на задачу проекта внедрения)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/task-link-to-project-task.png?raw=true)
 
 
@@ -98,9 +103,11 @@
 * Включает в себя задачи из всех проектов, но не позволяет менять этап задачи перетаскиванием карточки между колонками. В качестве колонок - общие статусы задач
 
 * Общий список задач по Agile-проектам можно увидеть через пункт меню "Доска задач":
+
 ![Доска задач (пункт меню)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/full-board-menu.png?raw=true)
 
 * Доска задач содержит в колонках общие этапы процесса [(см. Этап)](#этап):
+
 ![Доска задач (общий вид)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/full-board.png?raw=true)
 
 
@@ -109,7 +116,9 @@
 * Включает в себя задачи по конкретному проекту. Позволяет менять этап задачи перетаскиванием карточки между колонками. В качестве колонок - этапы рабочего процесса
 
 * Просмотреть состояние досок по проекту возможно при переходе в доску конкретного проекта:
+
 ![Доска задач проекта (пункт меню)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/project-board-menu.png?raw=true)
 
 * Доска задач по проекту содержит в колонках все возможные статусы процесса [(см. Статус)](#статус):
+
 ![Доска задач проекта (общий вид)](https://github.com/flln23/TopLogWMS-documentation/blob/main/aspro-guides/task/img/project-board.png?raw=true)
