@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T15:50:42.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ibDWDClZuIZpSFtL81Ht" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T16:01:21.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LF2oIKQ8wHUUflVJS83o" version="20.4.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="3555" dy="2185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4063" dy="2497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0yWBsBw63vBoOCSAFexl-63" value="Работа с задачами" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="6810" height="840" as="geometry" />
+          <mxGeometry x="40" y="40" width="5120" height="840" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-63" source="0yWBsBw63vBoOCSAFexl-102" target="0yWBsBw63vBoOCSAFexl-71">
           <mxGeometry relative="1" as="geometry">
@@ -46,7 +46,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-64" value="Отдел внедрения" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-63">
-          <mxGeometry x="20" width="6790" height="320" as="geometry" />
+          <mxGeometry x="20" width="5100" height="320" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-71" value="Согласовать с заказчиком постановку, оценку приоритет, сроки по задаче" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#dbf2ff;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
           <mxGeometry x="909" y="135" width="200" height="80" as="geometry" />
@@ -97,7 +97,7 @@
         <mxCell id="0yWBsBw63vBoOCSAFexl-161" value="Закрыть &lt;br&gt;проектную задачу" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=signal;strokeColor=default;strokeWidth=1;fillColor=#f2ab69;gradientColor=none;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
           <mxGeometry x="4980" y="150" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0yWBsBw63vBoOCSAFexl-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-64" source="0yWBsBw63vBoOCSAFexl-166" target="0yWBsBw63vBoOCSAFexl-169">
+        <mxCell id="0yWBsBw63vBoOCSAFexl-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-64" source="0yWBsBw63vBoOCSAFexl-166" target="0yWBsBw63vBoOCSAFexl-179">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-166" value="Установить статус&lt;br&gt;задачи разработки&lt;br&gt;&quot;Тестируется&quot;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=error;fillColor=#69A4F2;strokeColor=default;gradientColor=none;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
@@ -106,23 +106,50 @@
         <mxCell id="0yWBsBw63vBoOCSAFexl-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0yWBsBw63vBoOCSAFexl-64" source="0yWBsBw63vBoOCSAFexl-169" target="0yWBsBw63vBoOCSAFexl-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0yWBsBw63vBoOCSAFexl-189" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0yWBsBw63vBoOCSAFexl-173">
+          <mxGeometry x="-0.8724" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-64" source="0yWBsBw63vBoOCSAFexl-169" target="0yWBsBw63vBoOCSAFexl-174">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0yWBsBw63vBoOCSAFexl-188" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0yWBsBw63vBoOCSAFexl-175">
+          <mxGeometry x="-0.7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-169" value="Всё работает верно?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#dbf2ff;fillStyle=auto;strokeColor=default;strokeWidth=1;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
-          <mxGeometry x="3420" y="135" width="50" height="50" as="geometry" />
+          <mxGeometry x="3660" y="193" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-64" source="0yWBsBw63vBoOCSAFexl-172" target="0yWBsBw63vBoOCSAFexl-81">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4340" y="75" />
+              <mxPoint x="4340" y="175" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-172" value="Установить статус&lt;br&gt;задачи разработки&lt;br&gt;&quot;Готово&quot;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=error;fillColor=#69A4F2;strokeColor=default;gradientColor=none;fillStyle=auto;strokeWidth=1;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
-          <mxGeometry x="3570" y="50" width="50" height="50" as="geometry" />
+          <mxGeometry x="3870" y="50" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0yWBsBw63vBoOCSAFexl-174" value="Установить статус&lt;br&gt;задачи разработки&lt;br&gt;&quot;Ошибка при тесте&quot;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=error;fillColor=#69A4F2;strokeColor=default;gradientColor=none;fillStyle=auto;strokeWidth=1;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
-          <mxGeometry x="3570" y="193" width="50" height="50" as="geometry" />
+        <mxCell id="0yWBsBw63vBoOCSAFexl-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-64" source="0yWBsBw63vBoOCSAFexl-174" target="0yWBsBw63vBoOCSAFexl-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yWBsBw63vBoOCSAFexl-174" value="&lt;div&gt;Зафиксировать обнаруженные&lt;/div&gt;&lt;div&gt;ошибки в комментариях к&lt;/div&gt;&lt;div&gt;задаче разработки&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=error;fillColor=#69A4F2;strokeColor=default;gradientColor=none;fillStyle=auto;strokeWidth=1;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
+          <mxGeometry x="3870" y="193" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0yWBsBw63vBoOCSAFexl-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-64" source="0yWBsBw63vBoOCSAFexl-179" target="0yWBsBw63vBoOCSAFexl-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yWBsBw63vBoOCSAFexl-179" value="Провести тестирование" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#dbf2ff;fillStyle=auto;strokeColor=default;strokeWidth=1;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
+          <mxGeometry x="3410" y="125.5" width="150" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0yWBsBw63vBoOCSAFexl-181" value="Установить статус&lt;br&gt;задачи разработки&lt;br&gt;&quot;Ошибка при тесте&quot;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=error;fillColor=#69A4F2;strokeColor=default;gradientColor=none;fillStyle=auto;strokeWidth=1;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-64">
+          <mxGeometry x="4080" y="193" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-65" value="Заказчик" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-63">
-          <mxGeometry x="20" y="320" width="6790" height="200" as="geometry" />
+          <mxGeometry x="20" y="320" width="5100" height="200" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-85" value="Радоваться полученным изменениям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#dbf2ff;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-65">
           <mxGeometry x="4660" y="75" width="120" height="80" as="geometry" />
@@ -147,7 +174,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-66" value="Отдел разработки" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-63">
-          <mxGeometry x="20" y="520" width="6790" height="320" as="geometry" />
+          <mxGeometry x="20" y="520" width="5100" height="320" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-66" source="0yWBsBw63vBoOCSAFexl-69" target="0yWBsBw63vBoOCSAFexl-102">
           <mxGeometry relative="1" as="geometry" />
@@ -188,13 +215,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-131" value="Заполнить реквизит&lt;br&gt;&quot;&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;Проектная задача&lt;/span&gt;&quot; &lt;br&gt;задачи разработки&lt;br&gt;ссылкой на проектную задачу" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=error;fillColor=#69A4F2;strokeColor=default;gradientColor=none;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-66">
-          <mxGeometry x="1790" y="135" width="50" height="50" as="geometry" />
+          <mxGeometry x="1770" y="135" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-66" source="0yWBsBw63vBoOCSAFexl-136" target="0yWBsBw63vBoOCSAFexl-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-136" value="Заполнить реквизит&lt;br&gt;&quot;&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;Задача разработки&lt;/span&gt;&quot;&lt;br&gt;проектной задачи&amp;nbsp;&lt;br&gt;ссылкой на задачу разработки" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=signal;fillColor=#f2ab69;gradientColor=none;strokeColor=default;strokeWidth=1;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-66">
-          <mxGeometry x="1980" y="135" width="50" height="50" as="geometry" />
+          <mxGeometry x="1970" y="135" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-66" source="0yWBsBw63vBoOCSAFexl-138" target="0yWBsBw63vBoOCSAFexl-126">
           <mxGeometry relative="1" as="geometry" />
@@ -208,8 +235,24 @@
         <mxCell id="0yWBsBw63vBoOCSAFexl-164" value="Установить статус&lt;br&gt;задачи разработки&lt;br&gt;&quot;Готово к тесту&quot;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=error;fillColor=#69A4F2;strokeColor=default;gradientColor=none;" vertex="1" parent="0yWBsBw63vBoOCSAFexl-66">
           <mxGeometry x="2940" y="135" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="0yWBsBw63vBoOCSAFexl-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-66" target="0yWBsBw63vBoOCSAFexl-185">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4280" y="95" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0yWBsBw63vBoOCSAFexl-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-63" source="0yWBsBw63vBoOCSAFexl-164" target="0yWBsBw63vBoOCSAFexl-166">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yWBsBw63vBoOCSAFexl-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4988a9;" edge="1" parent="0yWBsBw63vBoOCSAFexl-63" source="0yWBsBw63vBoOCSAFexl-181" target="0yWBsBw63vBoOCSAFexl-125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2724" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4240" y="218" />
+              <mxPoint x="4240" y="790" />
+              <mxPoint x="2660" y="790" />
+              <mxPoint x="2660" y="680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
